@@ -1,0 +1,62 @@
+### Get all OscarReview
+GET https://localhost:8443/rest-services-youngjaelee/webapi/OscarReviews/Youngjae Lee
+
+
+### GET a JWT token for DAUSTIN (USER review)
+POST https://localhost:8443/rest-services-youngjaelee/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "DAUSTIN",
+  "password": "Password2015"
+}
+
+### GET a JWT token for JWHALEN (ADMIN review)
+POST https://localhost:8443/rest-services-youngjaelee/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "JWHALEN",
+  "password": "Password2015"
+}
+
+### GET a JWT token for JCHEN (Finance review)
+POST https://localhost:8443/rest-services-youngjaelee/webapi/jwt/ldapJsonLogin
+Content-Type: application/json
+
+{
+  "username": "JCHEN",
+  "password": "Password2015"
+}
+
+### POST a new OscarReview
+POST https://localhost:8443/rest-services-youngjaelee/webapi/OscarReviews
+Content-Type: application/json
+
+{
+  "name": "Samwise Gamgee",
+  "review": "gardener"
+}
+
+### 403 when USER Role to Delete Employee
+DELETE https://localhost:8443/rest-services-youngjaelee/webapi/OscarReviews/1
+Authorization: Bearer eyJraWQiOiJxdWlja3N0YXJ0LWp3dC1pc3N1ZXIiLCJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJKQ0hFTiIsInVwbiI6IkpDSEVOIiwiaXNzIjoicXVpY2tzdGFydC1qd3QtaXNzdWVyIiwiYXVkIjoiand0LWF1ZGllbmNlIiwiZ3JvdXBzIjpbIkZpbmFuY2UiXSwianRpIjoiNTBkNTE1NGEtMDQ4Yi00MTVkLWI0MmYtZmQ2NjhiYzU0NzZiIiwiaWF0IjoxNjUwNTA0NDM1LCJleHAiOjE2NTA1MTg4MzV9.kQ5AukWlbNzjfI8fXyab6cHxvYlEcbZd5G9YbCb9SxUk4catY2PhVUUyxNuQy41te8tMmTuB8hnpELFfo4O1McXs9-9-ybtExZwfwS8wSQAAJQud_Zj-LiPdq0Gf39o1WDbmsFIlwDA3Xa5c0v-voXDQ37JF77mY_Da9Bfq5dmLBu7_K-KL9IZbEtmFX9cOZcWDOqSwgCRrsirBfgmecSTfi22y7JjoFUycMuliOb67vbi2qzXI3PblcabqDGMLBVtXakSukO7KEQ6fgh-Ba4Bt5mHprKBA0t4LbAo0l1cNM83ZBcmcgfy49LX0719d4goL3TVcSeu3jiXJDJczrfg
+
+
+### POST a new OscarReview with someone in Accounting (Should throw 403)
+POST https://localhost:8443/rest-services-youngjaelee/webapi/OscarReviews
+Content-Type: application/json
+Authorization: Bearer eyJraWQiOiJxdWlja3N0YXJ0LWp3dC1pc3N1ZXIiLCJ0eXAiOiJqd3QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJTSElHR0lOUyIsInVwbiI6IlNISUdHSU5TIiwiaXNzIjoicXVpY2tzdGFydC1qd3QtaXNzdWVyIiwiYXVkIjoiand0LWF1ZGllbmNlIiwiZ3JvdXBzIjpbIkFjY291bnRpbmciXSwianRpIjoiNGZmMGQ4MzItZjdhZC00ZmRjLTkzZjEtYzM3NmEyOGNhMDJlIiwiaWF0IjoxNjUwNDE2NzM3LCJleHAiOjE2NTA0MzExMzd9.hZQTIr8s4IwXXJuXboXGekwAZBoO0uNaWmSTVjicV2TtXAwJVr8-bTHaCdzNnz_hsaroQbKXOsx8ew6ocjoE0Ja81XliqR7TSeKhNzbWgk88CO4s8IPp8OfTBw5M-Xc7pE23h2Z5dFi8G_zCHzWL9cbFtCwp_OU1ctO7yW3lKjD2Q_bN7oAwTDahm59ehxM5MRHArxKdOmo2cDovVrWQfk5Xn2ILepRJjcYN2AVurb86oEc6-ntdHCRmbf7_-3bwAutQon2K_sJw8Fs7xeWNOIaSWmSsA8tXMyZ6cPIfrYdGSDTKgfqAp1m0emOwi4hX1-_fRsoHbm30zle4DkYuHA
+
+{
+  "id": 5,
+  "category": "actor",
+  "nominee": "Park Solomon",
+  "review": "All of us are dead!!",
+  "username": "Tom Hanks",
+  "version": 0
+}
+
+
+
+

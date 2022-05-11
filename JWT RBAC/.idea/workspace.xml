@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="859db8dd-6a8f-46c4-9f2d-7d3be5b2d461" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/azure/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dmit2015-1212-oe01-courseproject-skske1432.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/azure/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/java/com/example/restclientyoungjaelee/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/java/com/example/restclientyoungjaelee/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/java/com/example/restclientyoungjaelee/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-client-youngjaelee/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/com/example/restservicesyoungjaelee/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/com/example/restservicesyoungjaelee/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/com/example/restservicesyoungjaelee/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/common/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/client/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/client/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/client/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/frontend/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/frontend/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/frontend/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/view/EmployeeCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/view/EmployeeListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/view/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/view/LoginSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/java/dmit2015/view/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-services-youngjaelee/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="281zqPAYtKALG4BeX7pfQJVzo5K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="859db8dd-6a8f-46c4-9f2d-7d3be5b2d461" name="Changes" comment="" />
+      <created>1650399069380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650399069380</updated>
+      <workItem from="1650399070951" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

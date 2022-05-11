@@ -1,0 +1,90 @@
+<ui:composition
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:f="http://xmlns.jcp.org/jsf/core"
+        xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+        xmlns:fn="http://xmlns.jcp.org/jsp/jstl/functions"
+        xmlns:jsf="http://xmlns.jcp.org/jsf"
+        xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+        xmlns:o="http://omnifaces.org/ui"
+        xmlns:of="http://omnifaces.org/functions"
+        xmlns:p="http://primefaces.org/ui"
+        template="/WEB-INF/jsf-templates/layout.xhtml"
+>
+
+    <ui:param name="title" value="Create Review"/>
+
+    <ui:define name="maincontent">
+
+        <f:metadata>
+            <f:viewAction action="#{loginSession.checkForToken}" />
+        </f:metadata>
+
+        <h1>Create Review</h1>
+
+        <p:messages id="messages"/>
+
+        <h:form>
+            <p:focus context="panel"/>
+
+            <p:panel id="panel" header="Review Details">
+
+                <div class="field">
+                    <label for="category">Category</label>
+                    <p:inputText
+                            id="category"
+                            type="text"
+                            class="inputfield w-full"
+                            value="#{currentOscarReviewCreateController.newOscarReview.category}">
+                    </p:inputText>
+                </div>
+
+                <div class="field">
+                    <label for="nominee">Nominee</label>
+                    <p:inputText
+                            id="nominee"
+                            type="text"
+                            class="inputfield w-full"
+                            value="#{currentOscarReviewCreateController.newOscarReview.nominee}">
+                    </p:inputText>
+                </div>
+
+                <div class="field">
+                    <label for="review">Review</label>
+                    <p:inputText
+                            id="review"
+                            type="text"
+                            class="inputfield w-full"
+                            value="#{currentOscarReviewCreateController.newOscarReview.review}">
+                    </p:inputText>
+                </div>
+
+                <div class="field">
+                    <label for="username">User name</label>
+                    <p:inputText
+                            id="username"
+                            type="text"
+                            class="inputfield w-full"
+                            value="#{currentOscarReviewCreateController.newOscarReview.username}">
+                    </p:inputText>
+                </div>
+
+                <!-- TODO: Add input fields for the properties of the entity -->
+
+                <p:commandButton
+                        value="Create"
+                        icon="pi pi-save"
+                        action="#{currentOscarReviewCreateController.onCreateNew()}"
+                        update=":messages @form"
+                />
+
+            </p:panel>
+            <p:link id="backToListLink" outcome="index" value="Back to List">
+            </p:link>
+
+        </h:form>
+
+    </ui:define>
+
+</ui:composition>
